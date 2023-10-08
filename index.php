@@ -36,7 +36,7 @@
 
   <!-- MAIN CONTENT -->
   <main class="container">
-    <h2>Sign up and <span> participate</span></h2>
+    <h2>Sign up and <span> participateXX</span></h2>
 
      <!-- FORM TO FILL THE INFORMATION THAT WILL BE STORED IN DATABASE -->
 		     <form method="post" action="add.php">
@@ -93,6 +93,7 @@
 					<li><a href="https://www.whatsapp.com/" target="_blank"><img src="img/Social_whatsapp.png" alt="whatsapp"></a></li>
 				</ul>
 				</nav>
+        <small>Image provided by <a href="https://www.freepik.com/" target="_blank">Freepik.com</a></small>
 			</footer>
 
    </body>

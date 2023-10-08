@@ -26,7 +26,10 @@
 
     </nav>
   </header>
-  <?php
+  
+  <main class="container top">
+    <h2>Enrollment <span>status</span></h2> 
+    <?php
 
       // including classes
       include_once ('validate.php');
@@ -76,7 +79,9 @@
           echo "<a class='buttons' href='javascript:self.history.back();'>Go Back</a>";
         }else{
           // if all the fields are valid
+          
           $result = $database->execute("INSERT INTO player(name,CONTACT_NUMB,email,BIRTH_YEAR,position,TIME_SLOT) VALUES('$NAME','$CONTACT_NUMB','$EMAIL','$BIRTH_YEAR','$POSITION','$TIME_SLOT')");
+          
           //  user knows that the record has been added
           if($result){
             echo "<h3>You are in, welcome to the camp 2023!</h3>";
@@ -86,9 +91,7 @@
                
         }
       }
-    ?>
-  <main class="container top">
-    <h2>Enrollment <span>status</span></h2>  
+    ?> 
   </main>
 			<!-- FOOTER -->	
 			<footer id="footer">
@@ -101,6 +104,8 @@
 					<li><a href="https://www.whatsapp.com/" target="_blank"><img src="img/Social_whatsapp.png" alt="whatsapp"></a></li>
 				</ul>
 				</nav>
+        <small>Image provided by <a href="https://www.freepik.com/" target="_blank">Freepik.com</a></small>
 			</footer>
+      
   </body>
 </html>

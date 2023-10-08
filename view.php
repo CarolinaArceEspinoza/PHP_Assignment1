@@ -40,6 +40,7 @@
 
 		<table class="table">
       <?php  
+        include_once 'database.php';
         $query = 'SELECT * FROM player';
         $result = $database->getData($query);
       ?>
@@ -80,6 +81,7 @@
 					<li><a href="https://www.whatsapp.com/" target="_blank"><img src="img/Social_whatsapp.png" alt="whatsapp"></a></li>
 				</ul>
 				</nav>
+        <small>Image provided by <a href="https://www.freepik.com/" target="_blank">Freepik.com</a></small>
 			</footer>
 </body>
 </html>

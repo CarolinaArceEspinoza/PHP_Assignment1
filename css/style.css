@@ -279,7 +279,12 @@ footer ul {
     background: transparent;}
     footer ul li img {width: 100%;transition: all 0.2s ease-in-out;}
     footer ul li img:hover {transform: scale(1.2);}
-
+    footer small a{
+      color: #ffffff;
+    }
+    footer small a:hover{
+      color: #ffb1fa;
+    }
 .table {
   font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -317,4 +322,13 @@ footer ul {
   }
   .capitalize {
     text-transform: capitalize;
+  }
+  footer small {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin: 20px auto 0px auto;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 11px;
   }
