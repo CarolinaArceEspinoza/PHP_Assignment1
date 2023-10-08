@@ -274,7 +274,7 @@ footer ul {
     height: auto;
     background: transparent;
   }
-  footer ul li button {    width: 100%;
+  footer ul li a {    width: 100%;
     border: 0px;
     background: transparent;}
     footer ul li img {width: 100%;transition: all 0.2s ease-in-out;}
