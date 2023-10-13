@@ -36,7 +36,7 @@
 
   <!-- MAIN CONTENT -->
   <main class="container">
-    <h2>Sign up and <span> participateXX</span></h2>
+    <h2>Sign up and <span> participate</span></h2>
 
      <!-- FORM TO FILL THE INFORMATION THAT WILL BE STORED IN DATABASE -->
 		     <form method="post" action="add.php">
